@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    color: teal;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+ul{
+    padding-left: 60rem;
+    font-size: 2rem;
+}
+li{
+    /* margin: 0rem 4rem; */
+    padding: 0rem 4rem;
+}
+a{
+    text-decoration: none;
+    color: wheat
+}
+h1{
+    font-size: 3rem;
+    color: teal;
+}
+.namee{
+    font-size: 4rem;
+}
+
+li{
+    padding-left: 10rem;
+}
+.mainn{
+    min-height: 100vh;
+    background: url('/images/Frame\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    display: flex;
+    padding-top: 20rem;
+    /* margin: 10rem 9rem; */
+    margin-left: 7.9rem;
+    font-size: xx-large;
+}
+
+.footer-wrapper{
+    /* margin-top: 25rem; */
+    display: flex;
+    flex-direction: column;
+}
+.newlist{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+}
+
+
+.footer-wrapper{
+    min-height: 10vh;
+    background-image:linear-gradient(to right,rgb(166, 230, 230),rgb(174, 93, 194)) ;
+    color: teal;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+}
+
+h5{
+    padding-left: 7.9rem;
+    font-size: 2rem;
+}
